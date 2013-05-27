@@ -5,11 +5,8 @@ import $organization$.$name;format="lowercase"$.DefaultServlet
 
 class RootServlet extends DefaultServlet {
 
-  doNotFound = () => {
-    serveStaticResource() getOrElse resourceNotFound()
-  }
-
   get("/") {
+    contentType = MediaType.PLAIN_TEXT_UTF_8
     "All your $name$ are belong to us."
   }
 

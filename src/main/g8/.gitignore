@@ -1,0 +1,25 @@
+
+# IDEA + SBT
+
+*.iml
+.idea
+.idea_modules
+target
+lib_managed/
+project/target
+project/boot/
+project/build/target/
+project/plugins/target/
+project/plugins/lib_managed/
+project/plugins/src_managed/
+
+# OS X
+
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
