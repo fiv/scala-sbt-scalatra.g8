@@ -1,8 +1,10 @@
-package fi.ln.testiwebprojekti
+
+package $organization$.$name;format="lowercase"$
 
 import org.scalatra.ScalatraServlet
 import javax.servlet.http.HttpServletResponse._
 import com.google.common.net.{HttpHeaders, MediaType}
+import scala.language.implicitConversions
 
 class StaticServlet extends ScalatraServlet {
 
